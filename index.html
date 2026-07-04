@@ -17,7 +17,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wdth,wght@75..100,100..900&display=swap"
       rel="stylesheet"
     />
-    <link href="css/main.css" rel="stylesheet" />
+    <link href="./css/main.css" rel="stylesheet" />
     <title>Document</title>
   </head>
   <body>
@@ -447,10 +447,29 @@
             </li>
           </ul>
         </div>
+
+        <form class="footer-form">
+          <div class="footer-form-input-wrapper">
+            <label class="footer-form-label" for="footer-form"> Subscribe </label>
+            <input
+              class="footer-form-input"
+              id="footer-form"
+              placeholder="E-mail"
+              type="email"
+            />
+          </div>
+
+          <button class="footer-form-button" type="submit">
+            <span>Subscribe</span>
+            <svg class="icon" height="24" width="24">
+              <use href="./images/icons.svg#send" />
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop" id="modal">
       <div class="overlay">
         <button class="modal-close-button">
           <svg class="icon" height="8" width="8">
@@ -502,7 +521,7 @@
             <label class="form-checkbox" for="terms">
               <span class="form-checkbox-custom">
                 <svg class="form-checkbox-icon" height="8" width="10">
-                  <use href="images/icons.svg#check-mark" />
+                  <use href="./images/icons.svg#check-mark" />
                 </svg>
               </span>
               <span
