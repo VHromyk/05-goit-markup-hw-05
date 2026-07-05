@@ -59,6 +59,7 @@
 }
 
 .modal-close-button .icon {
+  fill: var(--navy-blue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -79,7 +80,6 @@
   margin-top: 16px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
 }
 
 .form-label {
@@ -92,6 +92,10 @@
   gap: 4px;
 }
 
+.form-label:not(:first-child) {
+  margin-top: 8px;
+}
+
 .form-input-wrapper {
   position: relative;
 }
@@ -99,7 +103,7 @@
 .form-input-wrapper .icon {
   position: absolute;
   top: 50%;
-  left: 12px;
+  left: 16px;
   transform: translateY(-50%);
   fill: var(--navy-blue);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -123,6 +127,10 @@
 .form-textarea {
   padding-left: 16px;
   height: 120px;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  resize: none;
 }
 
 .form-textarea::placeholder {
@@ -152,6 +160,7 @@
 
 .checkbox-wrapper {
   display: flex;
+  margin-top: 16px;
 }
 
 .form-checkbox {
@@ -207,6 +216,7 @@
   margin: 24px auto 0;
   display: block;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  width: 169px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 

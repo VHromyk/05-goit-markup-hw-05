@@ -43,14 +43,6 @@
   fill: var(--cloud);
 }
 
-.footer-form {
-  margin-left: auto;
-  height: 80px;
-  display: flex;
-  align-items: flex-start;
-  gap: 24px;
-}
-
 .footer-form-label {
   font-size: 16px;
   font-weight: 500;
@@ -59,9 +51,15 @@
   letter-spacing: 0.02em;
 }
 
-.footer-form-input-wrapper {
+.footer-form-wrapper {
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 
 .footer-form-input {
@@ -75,7 +73,7 @@
   color: var(--white);
   outline: none;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 2;
   letter-spacing: 0.04em;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -83,7 +81,7 @@
 .footer-form-input::placeholder {
   color: var(--white);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 2;
   letter-spacing: 0.04em;
 }
 
