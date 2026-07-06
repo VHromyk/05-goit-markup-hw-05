@@ -85,7 +85,7 @@
 .form-label {
   color: var(--light-slate);
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   display: flex;
   flex-direction: column;
@@ -135,7 +135,7 @@
 
 .form-textarea::placeholder {
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--navy-blue-modal);
 }
@@ -165,7 +165,7 @@
 
 .form-checkbox {
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--light-slate);
   display: flex;
