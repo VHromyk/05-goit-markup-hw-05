@@ -116,12 +116,15 @@
 .form-input,
 .form-textarea {
   width: 100%;
-  min-height: 40px;
   border-radius: 4px;
   border: 1px solid var(--navy-blue-modal);
   padding: 8px 16px 8px 38px;
   outline: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input {
+  height: 40px;
 }
 
 .form-textarea {
